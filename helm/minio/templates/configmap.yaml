@@ -13,3 +13,5 @@ data:
 {{ include (print $.Template.BasePath "/_helper_create_bucket.txt") . | indent 4 }}
   add-user: |-
 {{ include (print $.Template.BasePath "/_helper_create_user.txt") . | indent 4 }}
+  custom-command: |-
+{{ include (print $.Template.BasePath "/_helper_custom_command.txt") . | indent 4 }}
